@@ -1,4 +1,4 @@
-TARGET = dde-polkit-agent
+TARGET = gxde-polkit-agent
 TEMPLATE = app
 QT = core gui widgets dbus
 CONFIG += link_pkgconfig c++11
@@ -29,7 +29,7 @@ RESOURCES += images.qrc
 
 DISTFILES += com.deepin.Polkit1AuthAgent.xml
 
-TRANSLATIONS = translations/dde-polkit-agent.ts
+TRANSLATIONS = translations/gxde-polkit-agent.ts
 
 # Automating generation .qm files from .ts files
 CONFIG(release, debug|release) {
@@ -42,7 +42,7 @@ deepin {
 
 target.path = /usr/lib/polkit-1-dde
 
-qm_files.path = /usr/share/dde-polkit-agent/translations/
+qm_files.path = /usr/share/gxde-polkit-agent/translations/
 qm_files.files = translations/*.qm
 
 headers.path = /usr/include/dpa

@@ -32,7 +32,7 @@
 DWIDGET_USE_NAMESPACE
 DCORE_USE_NAMESPACE
 
-#define APP_NAME "dde-polkit-agent"
+#define APP_NAME "gxde-polkit-agent"
 #define APP_DISPLAY_NAME "Deepin Polkit Agent"
 #define AUTH_DBUS_PATH "/com/deepin/polkit/AuthenticationAgent"
 
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    // create PID file to ~/.cache/deepin/dde-polkit-agent
+    // create PID file to ~/.cache/deepin/gxde-polkit-agent
     const QString cachePath = QStandardPaths::standardLocations(QStandardPaths::CacheLocation).first();
 
     QDir dir(cachePath);

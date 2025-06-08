@@ -27,7 +27,7 @@ DDE Polkit Agent is the [polkit](https://www.freedesktop.org/software/polkit/doc
 
 2. Build:
 ```
-$ cd dde-polkit-agent
+$ cd gxde-polkit-agent
 $ mkdir build
 $ cd build
 $ qmake ..
